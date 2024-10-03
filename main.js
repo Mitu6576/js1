@@ -83,7 +83,7 @@ let total_machine = ( 6+2 );
 let not_sell = 3;
 let per_machine_products = per_day_products / mechine;
 let total_products = per_machine_products * total_machine;
-let remaining_products = total_products % not_sell;
+let remaining_products = total_products - not_sell;
 console.log( remaining_products + ' ' + 'products remain');
 //  output: 263.6666666666667 products remain.
 
@@ -95,7 +95,7 @@ let packets = 9;
 let chocoletes_remain = chocoletes % packets;
 console.log( chocoletes_remain + ' ' + 'chocoletes remain');
 
-// output
+// output: 3 chocolete remain.
 
 
 
